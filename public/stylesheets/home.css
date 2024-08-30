@@ -5,7 +5,7 @@
 .main--body{
     width: 95%;
     height: 100vh;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 0 2.5%;
 }
 .navigation--bar{
@@ -34,9 +34,27 @@
     text-decoration: none;
     color: #000;
     font-weight: 500;
-
+    outline: none;
 }
 .navigation--bar nav li:hover{
-    background-color: rgb(78, 128, 103);
+    background-color: #A8BE97;
     color: #fff; 
+}
+.navigation--bar nav li a:hover{
+    color: #fff;
+}
+.welcome--image{
+    width: 90%;
+    margin: 0 5%;
+}
+.hotel--rooms{
+    border: 1px solid black;
+    height: 500px;
+    width: 292px;
+    padding: 10px;
+    margin: 20px 5%;
+    border-left: 32px solid;
+}
+.hotel--rooms .image img{
+    width: 100%;
 }
