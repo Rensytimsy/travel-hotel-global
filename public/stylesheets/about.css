@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main--body{
+    width: 95%;
+    height: 100vh;
+    /* border: 1px solid black; */
+    margin: 0 2.5%;
+}
+.navigation--bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navigation--bar .logo{
+    font-size: 40px;
+    margin: 15px 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.navigation--bar nav{
+    display: flex;
+    list-style: none;
+    margin: 20px 15px;
+}
+.navigation--bar nav li{
+    margin: 10px 15px;
+    border: 1px solid rgb(214, 214, 214);
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.navigation--bar nav li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    outline: none;
+}
+.navigation--bar nav li:hover{
+    background-color: #A8BE97;
+    color: #fff; 
+}
+.navigation--bar nav li a:hover{
+    color: #fff;
+}
+.about--page{
+    width: 95%;
+    margin: 10px 7%;
+}
+.about--display{
+    display: flex;
+}
+.about--section{
+    width: 40%;
+    margin: 40px 10px;
+}
+.about--section p{
+    font-size: 20px;
+    margin: 25px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+.user--card{
+    width: 250px;
+    border: 1px solid grey;
+    height: 450px;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 0 20px;
+}
+.user--card img{
+    width: 100%
+}
+.about--reviews{
+    /* border: 1px solid black; */
+    margin: 0 50px;
+}
+.user--review{
+    margin: 5px 25px;
+}
+.user--review h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+.review--data{
+    margin: 10px 0;
+}
+.review--data h1{
+    font-size: 18px;
+}
+.review--data p{
+    margin: 20px 0;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+.about--reviews{
+    display: flex;
+    flex-direction: row;
+}
+.about--h1{
+    text-align: center;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}

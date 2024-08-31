@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main--body{
+    width: 95%;
+    height: 100vh;
+    /* border: 1px solid black; */
+    margin: 0 2.5%;
+}
+.navigation--bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navigation--bar .logo{
+    font-size: 40px;
+    margin: 15px 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.navigation--bar nav{
+    display: flex;
+    list-style: none;
+    margin: 20px 15px;
+}
+.navigation--bar nav li{
+    margin: 10px 15px;
+    border: 1px solid rgb(214, 214, 214);
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.navigation--bar nav li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    outline: none;
+}
+.navigation--bar nav li:hover{
+    background-color: #A8BE97;
+    color: #fff; 
+}
+.navigation--bar nav li a:hover{
+    color: #fff;
+}
+.main-page{
+    /* width: 90%; */
+    /* border: 1px solid black; */
+    /* margin: 0 2.5%; */
+    height: 100vh;
+    background-color: #A8BE97;
+}
+.login--form{
+    border: 1px solid grey;
+    height: 500px;
+    width: 450px;
+    background-color: #fff;
+    position: absolute;
+    top: 150px;
+    left: 300px;
+    padding: 10px;
+    border-radius: 8px;
+}
+.login--form h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+.login--form input{
+    width: 90%;
+    margin: 20px 5%;
+    height: 30px;
+}
+
+.login--form input[type="button"]{
+    background-color: #7BC1D7;
+    position: relative;
+    top: 100px;
+    width: 150px;
+    left: 100px;
+    height: 4vh;
+    border-radius: 8px;
+    border: 1px solid grey;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+.login--form input[type="text"]{
+    margin: 20px 10%;
+    width: 80%;
+    outline: none;
+}
+.some--details p{
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    width: 450px;
+    font-size: 25px;
+}
+.social--media{
+    display: flex;
+    position: absolute;
+    top: 400px;
+    left: 50%;
+}
+.social--media p{
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    width: 450px;
+    font-size: 25px;    
+}

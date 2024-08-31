@@ -48,13 +48,111 @@
     margin: 0 5%;
 }
 .hotel--rooms{
-    border: 1px solid black;
-    height: 500px;
-    width: 292px;
+    border: 1px solid grey;
+    width: 250px;
+    height: 430px;
+    margin: 10px 5%;
     padding: 10px;
-    margin: 20px 5%;
-    border-left: 32px solid;
+    border-radius: 8px;
 }
-.hotel--rooms .image img{
-    width: 100%;
+.image--heading{
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.image--description{
+    width: 70%;
+    text-align: left;
+    margin: 5px 30%;
+}
+.image--more{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+    justify-content: space-around;
+}
+.image--more button{
+    padding: 10px;
+    background-color: #6BA6B9;
+    border-radius: 10px;
+    border: 1px solid grey;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.image--more button:hover{
+    background-color: #A8BE97;
+    color: #fff;
+}
+.image--more p{
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.hotels--rooms--div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.about--page{
+    width: 95%;
+    margin: 100px 7%;
+}
+.about--display{
+    display: flex;
+}
+.about--section{
+    width: 40%;
+    margin: 40px 10px;
+}
+.about--section p{
+    font-size: 20px;
+    margin: 25px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+.user--card{
+    width: 250px;
+    border: 1px solid grey;
+    height: 450px;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 0 20px;
+}
+.user--card img{
+    width: 100%
+}
+.about--reviews{
+    /* border: 1px solid black; */
+    margin: 0 50px;
+}
+.user--review{
+    margin: 5px 25px;
+}
+.user--review h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+.review--data{
+    margin: 10px 0;
+}
+.review--data h1{
+    font-size: 18px;
+}
+.review--data p{
+    margin: 20px 0;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+.about--reviews{
+    display: flex;
+    flex-direction: row;
+}
+.about--h1{
+    text-align: center;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
 }
