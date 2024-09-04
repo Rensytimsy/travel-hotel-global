@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/stylesheets/signup.css">
+</head>
+<body>
+    <div class="main--page">
+        <div class="navigation--bar">
+            <div class="logo">
+                <p>THG</p>
+            </div>
+            <nav>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="">Contact-us</a></li>
+                <li><a href="">Pricing</a></li>
+                <li><a href="">Countries</a></li>
+                <li><a href="/login">Login</a></li>
+                <li><a href="/signup">Signup</a></li>
+            </nav>
+        </div>
+        <form action="/signup" method="POST">
+            <h1>Create Account</h1>
+            <div class="form--inputs">
+                <input type="text" name="username" id=""placeholder="User name">
+                <input type="text" name="useremail" id="useremail" placeholder="User email">
+                <input type="text" name="" id="userPasswordOne" placeholder="Enter password">
+                <input type="text" name="userpassword" id=""placeholder="Repeat password">
+                <input type="submit" value="Sign in">
+            </div>
+        </form>
+
+        <div class="more--details">
+            <p>If you cant create an account, that could be because you have an existing account, and you just need to login to it. Other than that if you are facing problems creating an account send an email via blalalal.gmail.com . Thankyou.</p>
+            <p>I have an account: <a href="/login">Login here</a></p>
+        </div>
+    </div>
+
+    <script src="../validation.js" defer></script>
+</body>
+</html>

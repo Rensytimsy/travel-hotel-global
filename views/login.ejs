@@ -18,29 +18,26 @@
             <li><a href="">Pricing</a></li>
             <li><a href="">Countries</a></li>
             <li><a href="/login">Login</a></li>
+            <li><a href="/signup">Signup</a></li>
         </nav>
     </div>
     <div class="main-page">
         <div class="login--form">
-            <h1>Welcome back</h1>
-            <form action="" method="POST">
-                <input type="text" placeholder="User name">
-                <input type="text" placeholder="User password">
-                <input type="text" placeholder="User email">
-                <input type="button" value="Login">
-            </form>
-        </div>
-        <div class="some--details">
-            <p>Login back to your account 
-                to see what other hotels world wide are offering. Don’t forget to rate the experience with us , to improve user experience.</p>
-                <div class="social--media">
-                    <div class="social--media--icons">
-                        <img src="/images/twiter.png" alt="">
-                        <img src="/images/facebook.png" alt="">
-                        <img src="/images/google.png" alt="">
-                    </div>
+            <form action="/login" method="POST">
+                <h1>Welcome back</h1>
+                <div class="form--inputs">
+                    <input type="text" name="username" placeholder="User name">
+                    <input type="text" name="userpassword" placeholder="User password">
+                    <input type="submit" value="Login">
                 </div>
+            </form>
+            <div class="more--details">
+                <p>Login back to your account to see what other hotels world wide are offering. Don’t forget to rate the experience with us , to improve user experience.</p>
+                <p>Dont have an account!? <a href="/signup">Create one here!</a></p>
+            </div>
         </div>
     </div>
+
+    <script src="../validation.js"></script>
 </body>
 </html>
